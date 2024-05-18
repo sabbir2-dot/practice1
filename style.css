@@ -1,0 +1,42 @@
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-body {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.card-text {
+    color: #d3d3d3;
+}
+
+.card-design{
+    background-color: white;
+}
+.contact-info {
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+}
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact-info .info-item:last-child {
+    margin-bottom: 0;
+}
+.info-item img {
+    margin-right: 15px;
+}
+.info-item.green { background-color: #f0fff0; }
+.info-item.yellow { background-color: #fffacd; }
+.info-item.blue { background-color: #f0f8ff; }
